@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>QuickFix Mobile — Catalog</title>
+
+  <!-- Link external stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<header>
+  <div class="wrap">
+    <div class="headerInner">
+      <div class="brand">
+        <div class="logo" id="logoText">QF</div>
+        <div>
+          <h1 id="companyName">Company</h1>
+          <div class="tagline" id="tagline"></div>
+        </div>
+      </div>
+
+      <div class="headerMeta" id="headerMeta"></div>
+    </div>
+
+    <div class="tabsRow">
+      <div class="tabs">
+        <button class="tab active" id="tabCatalog" type="button">📦 Catalog</button>
+        <button class="tab" id="tabScreens" type="button">📱 iPhone Screens</button>
+      </div>
+      <div class="metaPill" id="metaRight">Loading…</div>
+    </div>
+
+    <div class="hero">
+      <div class="heroInner">
+        <div>
+          <p class="heroTitle" id="heroTitle">Loading…</p>
+          <p class="heroSub" id="heroSub">Please wait</p>
+        </div>
+      </div>
+
+      <div class="controls">
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z" stroke="currentColor" stroke-width="2"/><path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <input id="search" type="search" placeholder="Search..." />
+        </div>
+
+        <div class="field" id="filter1Wrap">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 13 11 22 2 13V2h11l7 7Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M7.5 7.5h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+          <select id="filter1"></select>
+        </div>
+
+        <div class="field" id="filter2Wrap">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 7h14M7 12h10M7 17h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M3 6v12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <select id="filter2"></select>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="topline">
+      <div class="count" id="countText"></div>
+      <div class="count" id="currencyText"></div>
+    </div>
+
+    <section id="viewCatalog">
+      <div class="grid" id="catalogGrid"></div>
+    </section>
+
+    <section id="viewScreens" style="display:none;">
+      <div class="tableCard">
+        <div class="tableHeader">
+          <div class="count" id="screensCount"></div>
+          <div class="count" id="screensNote"></div>
+        </div>
+        <div class="tableWrap">
+          <table>
+            <thead>
+              <tr>
+                <th style="min-width:260px;">Model</th>
+                <th id="q1">Quality 1</th>
+                <th id="q2">Quality 2</th>
+                <th id="q3">Quality 3</th>
+              </tr>
+            </thead>
+            <tbody id="screensTbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footerCard">
+      <div id="footerLeft"></div>
+      <div>Unlock Repair Wireless <code></code></div>
+    </div>
+  </div>
+</footer>
+
+<!-- Link external script at the end for faster paint; use defer if you prefer -->
+<script src="app.js" defer></script>
+</body>
+</html>

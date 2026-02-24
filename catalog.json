@@ -1,0 +1,95 @@
+{
+  "company": {
+    "name": "Unlock Repair Wireless",
+    "tagline": "Phone repairs done fast. Phones sold with confidence.",
+    "contact": {
+      "phone": "+1 (786) 449-6746",
+      "email": "support@quickfixmobile.com",
+      "address": "2379 Coral Way Coral Gables, FL 33145",
+      "hours": "Mon-Sat 10:00 AM - 7:00 PM"
+    },
+    "branding": {
+      "currency": "USD",
+      "logoText": "QF",
+      "primaryColor": "#0B3A5B",
+      "accentColor": "#14B8A6"
+    }
+  },
+  "catalog": {
+    "categories": [
+      { "id": "repair", "label": "Repairs" },
+      { "id": "phones", "label": "Phones" },
+      { "id": "accessories", "label": "Accessories" }
+    ],
+    "items": [
+      { "id": "svc-battery", "type": "service", "categoryId": "repair", "name": "Battery Replacement", "price": { "from": 53.10, "to": 134.10 } }
+    ]
+  },
+
+  "source": {
+    "document": "",
+    "updatedYear": 2026,
+    "note": "Precios sujetos a cambios sin previo aviso."
+  },
+  "service": {
+    "id": "svc-install-iphone-screen",
+    "type": "service",
+    "categoryId": "repair",
+    "name": "Instalación / Reemplazo de Pantalla iPhone",
+    "currency": "USD",
+    "qualities": [
+      { "id": "soft_oled_medium", "label": "Soft OLED Medium" },
+      { "id": "soft_oled_high", "label": "Soft OLED High" },
+      { "id": "oem_original", "label": "OEM Original" }
+    ]
+  },
+  "pricingByModel": [
+    { "model": "iPhone 7", "prices": { "soft_oled_medium": null, "soft_oled_high": 50, "oem_original": 75 } },
+    { "model": "iPhone 7 Plus", "prices": { "soft_oled_medium": null, "soft_oled_high": 60, "oem_original": 80 } },
+    { "model": "iPhone 8", "prices": { "soft_oled_medium": null, "soft_oled_high": 60, "oem_original": 85 } },
+    { "model": "iPhone 8 Plus", "prices": { "soft_oled_medium": null, "soft_oled_high": 65, "oem_original": 85 } },
+    { "model": "iPhone SE (2ª Gen)", "prices": { "soft_oled_medium": null, "soft_oled_high": 60, "oem_original": 85 } },
+
+    { "model": "iPhone X", "prices": { "soft_oled_medium": null, "soft_oled_high": 70, "oem_original": 100 } },
+    { "model": "iPhone XS", "prices": { "soft_oled_medium": null, "soft_oled_high": 70, "oem_original": 100 } },
+    { "model": "iPhone XR", "prices": { "soft_oled_medium": null, "soft_oled_high": 70, "oem_original": 100 } },
+    { "model": "iPhone XS Max", "prices": { "soft_oled_medium": null, "soft_oled_high": 85, "oem_original": 150 } },
+
+    { "model": "iPhone 11", "prices": { "soft_oled_medium": null, "soft_oled_high": 70, "oem_original": 100 } },
+    { "model": "iPhone 11 Pro", "prices": { "soft_oled_medium": null, "soft_oled_high": 85, "oem_original": 150 } },
+    { "model": "iPhone 11 Pro Max", "prices": { "soft_oled_medium": null, "soft_oled_high": 85, "oem_original": 150 } },
+
+    { "model": "iPhone 12 mini", "prices": { "soft_oled_medium": null, "soft_oled_high": 100, "oem_original": 150 } },
+    { "model": "iPhone 12", "prices": { "soft_oled_medium": null, "soft_oled_high": 100, "oem_original": 175 } },
+    { "model": "iPhone 12 Pro", "prices": { "soft_oled_medium": null, "soft_oled_high": 100, "oem_original": 175 } },
+    { "model": "iPhone 12 Pro Max", "prices": { "soft_oled_medium": null, "soft_oled_high": 120, "oem_original": 200 } },
+
+    { "model": "iPhone 13 mini", "prices": { "soft_oled_medium": null, "soft_oled_high": 120, "oem_original": 185 } },
+    { "model": "iPhone 13", "prices": { "soft_oled_medium": null, "soft_oled_high": 120, "oem_original": 300 } },
+    { "model": "iPhone 13 Pro", "prices": { "soft_oled_medium": null, "soft_oled_high": 125, "oem_original": 275 } },
+    { "model": "iPhone 13 Pro Max", "prices": { "soft_oled_medium": null, "soft_oled_high": 130, "oem_original": 350 } },
+
+    { "model": "iPhone 14", "prices": { "soft_oled_medium": null, "soft_oled_high": 125, "oem_original": 275 } },
+    { "model": "iPhone 14 Plus", "prices": { "soft_oled_medium": null, "soft_oled_high": 125, "oem_original": 275 } },
+    { "model": "iPhone 14 Pro", "prices": { "soft_oled_medium": null, "soft_oled_high": 175, "oem_original": 329 } },
+    { "model": "iPhone 14 Pro Max", "prices": { "soft_oled_medium": null, "soft_oled_high": 185, "oem_original": 400 } },
+
+    { "model": "iPhone 15", "prices": { "soft_oled_medium": null, "soft_oled_high": 145, "oem_original": 330 } },
+    { "model": "iPhone 15 Plus", "prices": { "soft_oled_medium": null, "soft_oled_high": 175, "oem_original": 330 } },
+    { "model": "iPhone 15 Pro", "prices": { "soft_oled_medium": null, "soft_oled_high": 185, "oem_original": 360 } },
+    { "model": "iPhone 15 Pro Max", "prices": { "soft_oled_medium": null, "soft_oled_high": 185, "oem_original": 420 } },
+
+    { "model": "iPhone 16", "prices": { "soft_oled_medium": 140, "soft_oled_high": 175, "oem_original": 320 } },
+    { "model": "iPhone 16e", "prices": { "soft_oled_medium": 100, "soft_oled_high": 125, "oem_original": 320 } },
+    { "model": "iPhone 16 Plus", "prices": { "soft_oled_medium": 170, "soft_oled_high": 200, "oem_original": 365 } },
+
+    { "model": "iPhone 16 Pro", "prices": { "soft_oled_medium": 170, "soft_oled_high": 200, "oem_original": 400 } },
+    { "model": "iPhone 16 Pro Max", "prices": { "soft_oled_medium": 195, "soft_oled_high": 225, "oem_original": 430 } },
+
+    { "model": "iPhone 17", "prices": { "soft_oled_medium": 165, "soft_oled_high": 250, "oem_original": 430 } },
+    { "model": "iPhone 17 Pro", "prices": { "soft_oled_medium": 200, "soft_oled_high": 300, "oem_original": 435 } },
+    { "model": "iPhone 17 Pro Max", "prices": { "soft_oled_medium": 285, "soft_oled_high": 385, "oem_original": 500 } },
+
+    { "model": "iPhone Air", "prices": { "soft_oled_medium": null, "soft_oled_high": 380, "oem_original": 435 } }
+  ]
+}
